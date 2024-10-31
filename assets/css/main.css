@@ -115,13 +115,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #B580A9;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #B580A9 !important;
 			text-decoration: none;
 		}
 
@@ -194,7 +194,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
+		border-bottom: solid 2px #B580A9;
 		margin: 2em 0;
 	}
 
@@ -203,7 +203,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		border-left: solid 6px #B580A9;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
@@ -212,7 +212,7 @@ input, select, textarea {
 	code {
 		background: #f7f7f7;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #B580A9;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1845,7 +1845,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #B580A9;
 		}
 
 	select {
@@ -1950,7 +1950,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #B580A9;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1985,7 +1985,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #B580A9;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2192,7 +2192,7 @@ img.logo{
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px #B580A9;
 				padding: 0.5em 0;
 			}
 
@@ -2392,7 +2392,7 @@ img.logo{
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 1px #B580A9;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2414,11 +2414,11 @@ img.logo{
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px #B580A9;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #B580A9;
 		}
 
 		table.alt {
@@ -2426,7 +2426,7 @@ img.logo{
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: solid 2px #B580A9;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2463,7 +2463,7 @@ img.logo{
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #B580A9;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2482,8 +2482,8 @@ img.logo{
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #B580A9;
+			color: #B580A9 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2491,8 +2491,8 @@ img.logo{
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #B580A9;
+			color: #B580A9 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2535,8 +2535,8 @@ img.logo{
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #B580A9;
+			border-color: #B580A9;
 			color: #ffffff !important;
 		}
 
@@ -2571,8 +2571,8 @@ img.logo{
 
 	.label{
 		background-color: transparent;
-		border-radius: 2em;
-		border: solid 3px #efefef;
+		border-radius: 0.5em;
+		border: solid 2px #B580A9;
 		color: #787878 !important;
 		cursor: default;
 		/* height: 3.15em; */
@@ -2723,7 +2723,7 @@ img.logo{
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #B580A9;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
