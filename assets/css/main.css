@@ -115,13 +115,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #B580A9;
+		color: #7D98BF;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #B580A9 !important;
+			color: #7D98BF !important;
 			text-decoration: none;
 		}
 
@@ -195,7 +195,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #B580A9;
+		border-bottom: solid 2px #7D98BF;
 		margin: 2em 0;
 	}
 
@@ -203,11 +203,11 @@ input, select, textarea {
 			margin: 3em 0;
 		}
 	hr.minor{
-		border-bottom: dashed 1px #B580A9;;
+		border-bottom: dashed 1px #7D98BF;;
 	}
 
 	blockquote {
-		border-left: solid 6px #B580A9;
+		border-left: solid 6px #7D98BF;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
@@ -216,7 +216,7 @@ input, select, textarea {
 	code {
 		background: #f7f7f7;
 		border-radius: 0.35em;
-		border: solid 2px #B580A9;
+		border: solid 2px #7D98BF;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1849,7 +1849,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #B580A9;
+			border-color: #7D98BF;
 		}
 
 	select {
@@ -1954,7 +1954,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #B580A9;
+			border-color: #7D98BF;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1989,7 +1989,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #B580A9;
+		border: solid 2px #7D98BF;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2196,7 +2196,7 @@ img.logo{
 		}
 
 			ul.alt li {
-				border-top: solid 2px #B580A9;
+				border-top: solid 2px #7D98BF;
 				padding: 0.5em 0;
 			}
 
@@ -2396,7 +2396,7 @@ img.logo{
 	}
 
 		table tbody tr {
-			border: solid 1px #B580A9;
+			border: solid 1px #7D98BF;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2418,11 +2418,11 @@ img.logo{
 		}
 
 		table thead {
-			border-bottom: solid 2px #B580A9;
+			border-bottom: solid 2px #7D98BF;
 		}
 
 		table tfoot {
-			border-top: solid 2px #B580A9;
+			border-top: solid 2px #7D98BF;
 		}
 
 		table.alt {
@@ -2430,7 +2430,7 @@ img.logo{
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #B580A9;
+				border: solid 2px #7D98BF;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2467,7 +2467,7 @@ img.logo{
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #B580A9;
+		border: solid 3px #7D98BF;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2486,8 +2486,8 @@ img.logo{
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #B580A9;
-			color: #B580A9 !important;
+			border-color: #7D98BF;
+			color: #7D98BF !important;
 		}
 
 		input[type="submit"]:active,
@@ -2495,8 +2495,8 @@ img.logo{
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #B580A9;
-			color: #B580A9 !important;
+			border-color: #7D98BF;
+			color: #7D98BF !important;
 		}
 
 		input[type="submit"].icon,
@@ -2539,8 +2539,8 @@ img.logo{
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #B580A9;
-			border-color: #B580A9;
+			background-color: #7D98BF;
+			border-color: #7D98BF;
 			color: #ffffff !important;
 		}
 
@@ -2576,7 +2576,7 @@ img.logo{
 	.label{
 		background-color: transparent;
 		border-radius: 0.5em;
-		border: solid 2px #B580A9;
+		border: solid 2px #7D98BF;
 		color: #787878 !important;
 		cursor: default;
 		/* height: 3.15em; */
@@ -2727,7 +2727,7 @@ img.logo{
 	}
 
 		#main > section {
-			border-top: solid 2px #B580A9;
+			border-top: solid 2px #7D98BF;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3259,6 +3259,6 @@ img.logo{
 }
 
 li::marker {
-	color: #B580A9;
+	color: #7D98BF;
 }
 
