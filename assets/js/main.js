@@ -118,3 +118,20 @@
 			*/
 
 })(jQuery);
+
+$(document).ready(function(){
+	  $('.owl-carousel').owlCarousel({
+	    items:1,
+	    lazyLoad:true,
+	    loop:true,
+	    margin:10,
+	    nav:true,
+	    dots:true,
+	    dotsEach:1,
+	    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+	    autoplay:true,
+	    autoplayHoverPause:true,
+	    autoplayTimeout:5000
+	});
+});
+
