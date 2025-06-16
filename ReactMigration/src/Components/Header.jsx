@@ -4,10 +4,10 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 const Header = () => {
     return (
-        <aside className="flex flex-col w-64 h-screen bg-base-background text-white p-4 font-[Cascadia_Nerd]">
+        <aside className="flex flex-col w-64 h-screen bg-gray-800 text-white p-4 font-[Cascadia_Nerd]">
             <div className="">
                 <img className="rounded-4xl mt-1 mb-3" src={avatarPic} alt="" />
-                <h1 className="text-justify ">
+                <h1 className="text-justify text-">
                     Hi! I'm <strong>Marc Anglés</strong>,<br />
                     aspiring Game Developer, <br />
                     board game aficionado, maker & inline skater.

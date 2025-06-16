@@ -1,37 +1,5 @@
 @import "tailwindcss";
-
 @font-face {
     font-family: "Cascadia-Nerd";
-    src: url("./assets/fonts/CaskaydiaMonoNerdFontMono-Regular.ttf");
-}
-
-@theme{
-    --color-base-background: "#1E1E2E";
-    --color-mantle-background: "#181825";
-    --color-crust--background: "#11111B";
-
-    --color-default-surface: "#1E1E2E";
-    --color-muted-surface: "#313244";
-
-    --color-default-text: "#CDD6F4";
-    --color-secondary-text: "#A6ADC8";
-    --color-inverted-text: "#1E1E2E";
-
-    --color-default-primary: "#89B4FA";
-    --color-light-primary: "#B4BEFE";
-    --color-dark-promary: "#739df2";
-
-    --color-rosewater-accent: "#F5E0DC";
-    --color-flamingo-accent: "#F2CDCD";
-    --color-pink-accent: "#F5C2E7";
-    --color-mauve-accent: "#CBA6F7";
-    --color-red-accent: "#F38BA8";
-    --color-maroon-accent: "#EBA0AC";
-    --color-peach-accent: "#FAB387";
-    --color-yellow-accent: "#F9E2AF";
-    --color-green-accent: "#A6E3A1";
-    --color-teal-accent: "#94E2D5";
-    --color-sky-accent: "#89DCEB";
-
-    --color-default-border: "#45475A";
+    src: url('./assets/fonts/CaskaydiaMonoNerdFontMono-Regular.ttf');
 }

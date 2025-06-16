@@ -2,7 +2,7 @@ import { SKILLS } from "../data";
 
 const Skills = ({}) => {
     return (
-        <div className="flex flex-col md:flex-row md:space-x-8 space-y-6 md:space-y-0">
+        <div className="flex space-x-8">
             {SKILLS.map((skillItem) => (
                 <div
                     key={skillItem.title + "_id"}
