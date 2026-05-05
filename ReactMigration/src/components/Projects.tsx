@@ -1,6 +1,14 @@
 import { projects, type Project } from "@/data/projects";
 import Reveal from "./Reveal";
 
+const statusColors = {
+  "in-development": "bg-yellow-500/20 text-yellow-300 border-yellow-500/30",
+  "released": "bg-green-500/20 text-green-300 border-green-500/30",
+  "prototype": "bg-blue-500/20 text-blue-300 border-blue-500/30",
+  "archived": "bg-gray-500/20 text-gray-400 border-gray-500/30",
+  "early-work": "bg-purple-500/20 text-purple-300 border-purple-500/30",
+};
+
 function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <Reveal delay={index * 100}>
@@ -11,6 +19,11 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
             alt={project.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
+          <div className="absolute top-4 right-4">
+            <span className={`px-3 py-1 rounded-full text-xs font-medium border ${statusColors[project.status]}`}>
+              {project.status.replace("-", " ")}
+            </span>
+          </div>
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
             {project.link ? (
               <a
@@ -22,15 +35,26 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
                 View Project <i className="fas fa-external-link-alt text-sm"></i>
               </a>
             ) : (
-              <span className="text-gray-400 italic">Personal Project</span>
+              <span className="text-gray-400 italic">In Development</span>
             )}
           </div>
         </div>
         <div className="p-6">
-          <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-blue-400 transition-colors">
-            {project.title}
-          </h3>
-          <p className="text-gray-400 text-sm leading-relaxed">{project.description}</p>
+          <div className="flex items-center gap-2 mb-2">
+            <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
+              {project.title}
+            </h3>
+          </div>
+          <p className="text-gray-400 text-sm leading-relaxed mb-4">{project.description}</p>
+          {project.tags && (
+            <div className="flex flex-wrap gap-2">
+              {project.tags.map((tag) => (
+                <span key={tag} className="px-2 py-1 bg-gray-700/50 text-gray-400 rounded text-xs">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </Reveal>
@@ -43,7 +67,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         <Reveal>
           <div className="text-center mb-16">
-            <span className="text-blue-400 text-sm tracking-widest uppercase">Things I&apos;ve built</span>
+            <span className="text-blue-400 text-sm tracking-widest uppercase">Things I've built</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               Featured <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Projects</span>
             </h2>

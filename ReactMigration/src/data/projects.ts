@@ -3,42 +3,56 @@ export interface Project {
   image: string;
   description: string;
   link?: string;
+  status: "in-development" | "released" | "prototype" | "archived" | "early-work";
+  tags?: string[];
 }
 
 export const projects: Project[] = [
   {
-    title: "Unity Junior Programming project",
+    title: "Voxel Defense",
+    image: "/images/projects/voxeldefense.png",
+    description: "Light tower defense with custom architecture. No artist input - all models and effects created in-engine using Unity.",
+    status: "in-development",
+    tags: ["Unity", "Custom Architecture", "Voxel Art"],
+  },
+  {
+    title: "Unity Junior Programming Project",
     image: "/images/projects/ProgramminTheory.png",
-    description: "A quick project to display the basic principles of programming theory: Abstraction, Encapsulation, Inheritance and Polymorphism.",
+    description: "Educational project demonstrating OOP principles: Abstraction, Encapsulation, Inheritance and Polymorphism in Unity.",
     link: "https://github.com/Ooin/Programming-Theory-in-Action",
+    status: "released",
+    tags: ["Unity", "C#", "Education"],
   },
   {
     title: "React Refs and Portals",
     image: "/images/projects/reactRefsAndPortals.png",
-    description: "In this learning project I delved in the waters of React and developed and simple game in the browser in order to explore Refs and Portals.",
+    description: "Browser-based game exploring React Refs and Portals - a deep dive into React's advanced features.",
     link: "https://github.com/Ooin/ReactRefsAndPortals",
-  },
-  {
-    title: "Voxel Defense",
-    image: "/images/projects/voxeldefense.png",
-    description: "My current project. A light tower defense with our personal architecure, no artist input, no modelling, all but sounds made in the engine.",
+    status: "released",
+    tags: ["React", "TypeScript", "Game Mechanics"],
   },
   {
     title: "Quarto UE4",
     image: "/images/projects/quarto.gif",
-    description: "Personal project to give UE4 a refresh after a long while. A prototype of hte boardgame Quarto in UE4 Blueprints developed in a couple of weeks.",
+    description: "Board game prototype in UE4 Blueprints, developed in a couple of weeks as a refresh project.",
     link: "https://dtritus.itch.io/quarto-in-ue",
+    status: "released",
+    tags: ["Unreal Engine 4", "Blueprints", "Board Game"],
   },
   {
-    title: "Graduation Project",
+    title: "Graduation Project - Terrain Generator",
     image: "/images/projects/TFG.png",
-    description: "My first foray in Unity was my grade project for the University. I created a terrain generator with gaussian noise. Given a set of parameters like size and ammount of <i>blobs</i>, the random elements in the function, it generates a subset of islands randomly. This can be exported as a greyscale height map for future use.",
+    description: "Unity terrain generator using gaussian noise. Generates random island subsets exportable as greyscale height maps.",
     link: "https://github.com/Ooin/TFG2015",
+    status: "early-work",
+    tags: ["Unity", "C#", "Procedural Generation"],
   },
   {
-    title: "Lightless",
+    title: "Lightless - Global Game Jam 2014",
     image: "/images/projects/lightless.png",
-    description: "The first and only time I've worked with Raylib was with this little game developed for the Global Game Jam 2014. There I teamed up with a group of people I had never met before and created this short sidescroll shoot'em up about nightmares.",
+    description: "Side-scrolling shooter about nightmares. Collaborated with strangers at GGJ2014 using Raylib.",
     link: "https://github.com/Ooin/GameJam2014",
+    status: "early-work",
+    tags: ["Raylib", "C++", "Game Jam"],
   },
 ];
