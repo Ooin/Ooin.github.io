@@ -12,6 +12,7 @@ export const projects: Project[] = [
     title: "Puzzle Maker",
     image: "/images/projects/puzzlemaker.png",
     description: "A clone of OneUp Puzzle with the capabilities to pencilmark and easier keypad for smartphone. Has log in and a puzzle designer. Developed in Next.js.",
+    link: "https://ooin.github.io/PuzzleMaker/",
     status: "released",
     tags: ["Next.js","React","Typescript"]
   },
