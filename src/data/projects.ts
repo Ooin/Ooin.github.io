@@ -9,6 +9,13 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Puzzle Maker",
+    image: "/images/projects/puzzlemaker.png",
+    description: "A clone of OneUp Puzzle with the capabilities to pencilmark and easier keypad for smartphone. Has log in and a puzzle designer. Developed in Next.js.",
+    status: "released",
+    tags: ["Next.js","React","Typescript"]
+  },
+  {
     title: "Voxel Defense",
     image: "/images/projects/voxeldefense.png",
     description: "Light tower defense with custom architecture. No artist input - all models and effects created in-engine using Unity.",
